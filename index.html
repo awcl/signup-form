@@ -1,0 +1,33 @@
+<div class="form">
+  <form action="/fictitious-endpoint" method="post">
+    <ul>
+      <li>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your Email Address"/>
+      </li>
+      <li>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your Password"/>
+      </li>
+      <li>
+        <label for="name">Github Username:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Github Username"/>
+      </li>
+      <li>
+        <label for="plan">Plan:</label>
+        <input type="radio" name="plan" id="Enterprise" value="Enterprise">
+        Enterprise
+        <input type="radio" name="plan" id="Pro" value="Pro">
+        Pro
+        <input type="radio" name="plan" id="Free" value="Free">
+        Free
+      </li>
+      <li>
+        <input type="checkbox" name="remember" value="remember"> Remember Me
+      </li>
+      <li class="button">
+        <button type="submit">Submit</button>
+      </li>
+    </ul>
+  </form>
+</div>
